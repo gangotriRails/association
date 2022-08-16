@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   resources :insta_users
   resources :insta_posts
   resources :users do
